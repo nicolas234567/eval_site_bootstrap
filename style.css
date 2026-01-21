@@ -10,6 +10,7 @@ section {
     padding: 4rem 0;
 }
 
+
 /* Navbar */
 .navbar {
     background-color: #0b0b0b !important;
@@ -37,12 +38,12 @@ section {
 }
 
 #accueil h1 {
-    color: #0b0b0b;
+    color: #ffffff;
     font-weight: 800;
 }
 
 #accueil p {
-    color: #333333;
+    color: #ffffff;
 }
 
 /* Section Info */
@@ -135,6 +136,8 @@ section {
     background-color: #ffffff;
     border: 1px solid #e10600;
     color: #e10600;
+    padding-left: 40%;
+    padding-right: 40%;
     font-weight: 600;
 }
 
