@@ -1,0 +1,217 @@
+/* Base */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #0b0b0b;
+    text-align: center;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0b0b0b !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e10600 !important;
+}
+
+/* Accueil */
+#accueil {
+    background-image: url("images/aider-nous.jpg");
+    background-size: cover;          
+    background-position: center;      
+    background-repeat: no-repeat;    
+    min-height: 350px;                
+    position: relative;
+    text-align: center;
+}
+
+#accueil h1 {
+    color: #0b0b0b;
+    font-weight: 800;
+}
+
+#accueil p {
+    color: #333333;
+}
+
+/* Section Info */
+.info-section {
+    background-color: #ffffff;
+}
+
+.info-section h3 {
+    color: #0b0b0b;
+    font-weight: 700;
+}
+
+.info-section p {
+    color: #444444;
+}
+
+.info-section img {
+    border-radius: 8px;
+}
+
+/* Evenements */
+#evenements {
+    background-color: #0b0b0b;
+    color: #ffffff;
+}
+
+#evenements h2 {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+#evenements p {
+    color: #dddddd;
+}
+
+.event-gif {
+    max-width: 260px;
+    display: block;
+    margin: auto;
+}
+
+#evenements .btn {
+    background-color: #0b0b0b;
+    color: yellow;       
+    border: 2px solid yellow;  
+    font-weight: 600;
+}
+
+#evenements .btn:hover {
+    background-color: yellow; 
+    color: #0b0b0b;   
+}
+
+/* Adoption */
+#adoption {
+    background-color: #ffffff;
+}
+
+#adoption h2 {
+    color: #0b0b0b;
+    font-weight: 800;
+}
+
+#adoption h5 {
+    background-color: #e10600;
+    color: #ffffff;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.card h5 {
+    color: #0b0b0b;
+}
+
+.card p {
+    color: #444444;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Boutons rouges */
+.btn-primary,
+.btn-success {
+    background-color: #ffffff;
+    border: 1px solid #e10600;
+    color: #e10600;
+    font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+    background-color: #b80400;
+}
+
+/* SECTION AIDER-NOUS */
+#aider-nous {
+    background-image: url("images/aider-nous.jpg");
+    background-size: cover;          
+    background-position: center;      
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    min-height: 350px;                
+    position: relative;
+}
+
+
+#aider-nous .overlay {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #0b0b0b; 
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/* Formulaire */
+#contact label {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#contact input,
+#contact textarea {
+    background-color: #ffffff; /* blanc pour les champs */
+    color: #0b0b0b;           /* texte noir */
+    border: 1px solid #cccccc;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #e10600; /* rouge accent au focus */
+    box-shadow: none;
+}
+
+/* Bouton  formulaire*/
+#contact .btn {
+    background-color: #0b0b0b;
+    color: #ffffff;       
+    border: 2px solid #ffffff;  
+    font-weight: 600;
+}
+
+#contact .btn:hover {
+    background-color: white; 
+    color: #0b0b0b;   
+}
+
+/* Footer */
+footer {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    padding: 15px 0;
+}
